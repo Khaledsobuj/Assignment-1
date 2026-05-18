@@ -49,3 +49,49 @@
     color: #ffffff;
 
 }
+.footer_section{
+    max-width: 1600px;
+
+    background-color: black;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer-add{
+display: flex;
+justify-content: space-between;
+padding: 120px 50px 0px 0px;
+   
+}
+.footer_left{
+    width: 340px;
+    /* border: 1px solid tomato; */
+    font-size: 24px;
+}
+.footer-contact{
+    width: 340px;
+    /* border: 1px solid tomato; */
+    font-size: 24px;
+   
+}
+.footer-icon{
+    margin-top: 100px;
+    border-top: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+    text-align: center;
+    padding:50px 0px;
+   
+}
+.footer-icon img{
+    padding: 0px 25px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    padding: 50px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
