@@ -1,8 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+/* google font  */
+
+.work-sans- {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.container {
     max-width: 1320px;
     margin: 0 auto;
+}
+
+.header_section {
+    width: 100%;
+    text-align: center;
+    border: 1px solid tomato;
+    background-image: url('../resources/Banner\ Image.png');
+
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    width: 630px;
+    margin: 0 auto;
+    padding: 170px 0px;
+    background-color: rgba(15, 15, 15, 0.089);
+
+}
+
+.heder_title {
+    font-size: 30px;
+    color: #fff;
+
+
+}
+
+.header_description {
+    font-size: 70px;
+
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+
 }
