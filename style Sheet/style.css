@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 /* google font  */
 
 .work-sans- {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .container {
@@ -43,13 +44,85 @@
 
 .header_description {
     font-size: 70px;
-
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
 
 }
-.footer_section{
+
+.all-categories {
+    padding: 120px 0px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.off {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff000f;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.holiday-deals {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff000f;
+    padding-bottom: 16px;
+}
+
+.catagories {
+    font-size: 48px;
+    font-weight: 600;
+    color: #070211;
+    padding-bottom: 50px;
+
+}
+
+.midnight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.midnight-left {
+    width: 50%;
+    padding: 120px 50px;
+}
+
+.midnight-title {
+    font-size: 65px;
+    font-weight: bold;
+    width: 70%;
+    color: white;
+
+}
+
+.mid-description {
+    font-size: 18px;
+    color: #fff;
+    margin: 25px 0px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.midnight-right {
+    margin: 60px 130px 0px 0px;
+}
+
+/* ========================================== footer area */
+.footer_section {
     max-width: 1600px;
 
     background-color: black;
@@ -57,41 +130,46 @@
     margin: 0 auto;
     margin-top: 30px;
 }
-.footer-add{
-display: flex;
-justify-content: space-between;
-padding: 120px 50px 0px 0px;
-   
+
+.footer-add {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 50px 0px 0px;
+
 }
-.footer_left{
+
+.footer_left {
     width: 340px;
     /* border: 1px solid tomato; */
     font-size: 24px;
 }
-.footer-contact{
+
+.footer-contact {
     width: 340px;
     /* border: 1px solid tomato; */
     font-size: 24px;
-   
+
 }
-.footer-icon{
+
+.footer-icon {
     margin-top: 100px;
     border-top: 1px solid #696969;
     border-bottom: 1px solid #696969;
     text-align: center;
-    padding:50px 0px;
-   
+    padding: 50px 0px;
+
 }
-.footer-icon img{
+
+.footer-icon img {
     padding: 0px 25px;
 }
 
-.footer-copyright{
+.footer-copyright {
     display: flex;
     justify-content: space-between;
     margin: 50px 0px;
     padding: 50px 0px;
     font-size: 25px;
     font-weight: bold;
-    
+
 }
