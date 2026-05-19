@@ -275,15 +275,24 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 60%;
-
 }
 
 .img-div {
     /* border: 2px solid gray; */
-    width:76%;
-
+    width: 76%;
 }
 
+.gallary-container {
+    margin-top: 120px;
+    width: 100%;
+   
+}
+
+.gallary-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 /* ======================= */
