@@ -127,6 +127,8 @@
     text-align: center;
     padding: 100px 0px;
     margin-top: 120px;
+    margin-bottom: 120px;
+    border: 1px solid #07021115;
 }
 .content-newpark{
     font-size: 32px;
@@ -149,7 +151,106 @@
     background-color: green;
     transition: .5s;
 }
+.new_bestOffer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.best_offerLeft{
+    width: 33%;
+}
+.offer_title{
+    font-size: 24px;
+    color: #ff000f;
 
+
+}
+.offer_main{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px 0px;
+    
+}
+.offer-desc{
+    font-size: 20px;
+    color: #0702118e;
+}
+
+
+
+.best_offermid{
+    border: 10px solid red;
+    border-radius: 100%;
+    width: 33%;
+    margin: 0px 20px;
+}
+
+.offer-img{
+    
+    padding: 40px;
+}
+.best_offerright{
+    width: 33%;
+    padding-left: 118px;
+}
+.twothousend_twenty-two{
+    color: #ff000f;
+}
+.best_offerright img{
+    padding-top: 40px;
+}
+
+/* ======================= */
+
+
+.subscribe{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #FFF2F2;
+    padding-bottom: 80px;
+}
+.email_logo{
+    width: 150px;
+    height: 150px;
+}
+.subscribe_title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: bold;
+    margin: 40px 0px 22px 0px;
+}
+.decription{
+    margin: 0 auto;
+    width: 890px;
+    font-size: 20px;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.input_sub{
+    width: 440px;
+    height: 70px;
+    padding: 25px 30px;
+    font-size: 18px;
+    color: #070211;
+    border: none;
+    border-radius:50px 0px 0px 50px;
+}
+.in_btn{
+    width: 210px;
+    height: 124px;
+    padding: 25px 30px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: -4px;
+    background-color: #ff000f;
+    border: none;
+    border-radius:0px 50px 50px 0px;
+    cursor: pointer;
+}
 /* ========================================== footer area */
 .footer_section {
     max-width: 1600px;
