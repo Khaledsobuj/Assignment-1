@@ -120,6 +120,35 @@
 .midnight-right {
     margin: 60px 130px 0px 0px;
 }
+.new-park{
+    background: linear-gradient(#a5525279,#fc8c8c00);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0px;
+    margin-top: 120px;
+}
+.content-newpark{
+    font-size: 32px;
+    font-weight: 600;
+}
+.color-newpark{
+    color: #ff000f;
+}
+.join_now{
+    margin-top: 48px;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ff000f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.join_now:hover{
+    background-color: green;
+    transition: .5s;
+}
 
 /* ========================================== footer area */
 .footer_section {
