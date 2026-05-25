@@ -244,7 +244,7 @@
     margin: 0 auto;
     font-size: 20px;
     /* background-color: #070211; */
-   
+
 }
 
 .holiday-banner {
@@ -284,30 +284,33 @@
     width: 76%;
 
 }
+
 /* ============================== */
 
 .gallary-container {
     margin-top: 30px;
-       width: 100%;
-       
-       
+    width: 100%;
 
-    
-   
+
+
+
+
 }
-.gallary-item{
+
+.gallary-item {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-   
+
 
 }
-.gallary-item img{
+
+.gallary-item img {
     width: 90%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
-  border-radius: 15px;
-    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
 
 }
 
@@ -418,5 +421,56 @@
     padding: 50px 0px;
     font-size: 25px;
     font-weight: bold;
+
+}
+
+
+/* ======================responsive part==================== */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .header_section {
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 35px 0px;
+    }
+
+    .all-categories {
+        padding: 32px 0px;
+    }
+
+    .all-categories img,
+    .midnight-title {
+        width: 100%;
+    }
+
+    .off {
+        padding-bottom: 20px;
+    }
+
+    .midnight {
+        flex-direction: column;
+    }
+
+    .midnight-left {
+        width: 95%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .btn {
+        background: #ff2e2e;
+        padding: 20px;
+        border-radius: 15px;
+    }
 
 }
